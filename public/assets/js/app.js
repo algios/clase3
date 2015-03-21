@@ -54,7 +54,7 @@ managerscreen={
         }*/
     //JQUERY
     $("div").show();
-    }
+    },
     toggletodosdivp:function(tag){
        /* var ps = document.getElementsByTagName(tag);
         for (i=0; i < ps.length; i++){
@@ -62,7 +62,12 @@ managerscreen={
         }*/
     //JQUERY
     $("div,p").toggle();
-    }
+    },
+    
+   alertify:function(){
+       alertify.log("Notification", "Success", 1000);
+       alertify.log("Notification", "Error", 2000);
+   }
 }
 var ms=managerscreen;
 
