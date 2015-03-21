@@ -3,7 +3,7 @@
         <script src="./assets/js/app.js"></script>
         <script src="./assets/libs/alertify/lib/alertify.min.js"></script>
         <script src="//code.jquery.com/jquery-1.11.2.min.js"></script>
-        <link rel="stylesheet" type="text/css" href="./assets/libs/alertify/themes"
+        <link rel="stylesheet" type="text/css" href="./assets/libs/alertify/themes/alertify.default.css"
     </head>
     <body>
         <button onclick="ms.saludar()">Saludar</button>
